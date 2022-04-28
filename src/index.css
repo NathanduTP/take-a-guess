@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Fredoka", sans-serif;
+  src: local("Fredoka-Variable"),
+    url("./assets/fonts/Fredoka-Variable.ttf") format("truetype");
+}
+
+
+html {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(bottom left, #DA07EA, #FB7018), url("./assets/images/overlay.svg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: saturation;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Fredoka";
+}
+
+.fancy-shadow {
+  box-shadow: 6px 6px #8c52ff, 6px 6px 0 2px #5e17eb
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

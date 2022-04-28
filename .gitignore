@@ -1,0 +1,24 @@
+# Ignore node module
+node_modules
+
+
+# Ignore production
+dist
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Ignore virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore my vscode config
+.vscode
+
+# Ignore my idea config
+.idea
